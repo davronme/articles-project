@@ -17,12 +17,8 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Bebas Neue", "Arial", sans-serif;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  /* line-height: 29px; */
-  letter-spacing: 2px;
   background-color: #fff;
   color: #222222;
 }
@@ -63,30 +59,43 @@ body{
   background-image: url(../img/bg-nature.jpg);
   background-repeat: no-repeat;
   background-size: cover ;
-  background-position: center bottom;
+  /* background-position: center bottom; */
   width: 100%;
   max-width: 600px;
 
 }
 .hero-content {
   max-width: 285px;
+  padding: 20px;
 }
 .hero-heading{
+  font-family:"Bebas Neue", "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: normal;
+  letter-spacing: 2px;
   margin-top: 0;
-  text-transform: uppercase;
   margin-bottom: 24px;
+  text-transform: uppercase;
   color: #fff;
 }
 .hero-link {
   display: inline-block;
-  background-color: #1e90ff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  font-family:"Bebas Neue", "Roboto Condensed", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 24px;
-  color:#fff;
+  line-height: normal;
+  letter-spacing: 2px;
   text-decoration: none;
+  text-transform: uppercase;
+  background-color: #1e90ff;
+  color:#fff;
+}
 
+.hero-link:hover{
+  opacity: 0.8;
+}
+.hero-link:active{
+  opacity: 0.6;
 }
 .hero-link-inner{
   display: flex;
